@@ -1,0 +1,28 @@
+description: |
+  Hmm, I wonder what happends when you XorMM and whYMM?
+
+  Author: leon332157
+
+  `sha256sum: 31a1ffc2bac2104792452d92b2d494b1c0f0f1f258115b23cbeeae70ed009953  whymm`
+
+   Small note: You want to make sure you have a CPU that supports AVX to run the binary.
+
+   Hint: The flag is entirely in leetspeak and the second input is entirely in hexspeak
+flags:
+  - content: "UMASS{i<3s1md!h4v_u_h34rd_0f_z3nb133d?}"
+    type: "static"
+    data: "case_sensitive"
+
+name: "vecwhymm"
+value: 500
+dynamic:
+  function: logarithmic
+  decay: 100
+  minimum: 100
+
+tags:
+  - rev
+  - linux
+  - medium-hard
+  - simd
+

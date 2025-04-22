@@ -1,0 +1,6 @@
+services:
+  riscy:
+    build: .
+    ports:
+      - "9006:5555"
+    restart: always
